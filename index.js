@@ -60,6 +60,12 @@ server.post('/projects', (req, res) => {
         tasks: []
     };
 
+    const projectTest = projects.find(p => p.id === id);
+
+    if(projectTest) {
+        return res.status(400).json({ error: 'Project already exists' });
+    }
+
     projects.push(project);
 
     return res.json(project);
