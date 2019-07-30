@@ -33,9 +33,11 @@ Criada uma aplicação em express, para armazenar projetos e suas tarefas.
 
 ## Para usar
 
+Instalar dependências
 ```sh
 yarn
 ```
+Rodar o projeto
 ```sh
 yarn dev
 ```
