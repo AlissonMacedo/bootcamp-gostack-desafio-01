@@ -30,3 +30,16 @@ Criada uma aplicação em express, para armazenar projetos e suas tarefas.
 ![Desafio 01.](./demo/demoRequisicoes.png "demoRequisicoes")
 
 “Sua única limitação é você mesmo”!
+
+## Para usar
+
+```sh
+yarn
+```
+```sh
+yarn dev
+```
+URL
+```sh
+http://localhost:3000/
+```
